@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #141617;
+    color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px outset #fff;
+}
+
+.branch_header {
+    font-family: Inter;
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: lighter;
+}
+
+.nav_header {
+    display: flex;
+    flex-direction: wrap;
+    gap: 35px;
+}
+
+.nav_header a{
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.button_header {
+    font-family: "Inter";
+    font-weight: 300;
+    background-image: url('./assets/image/buttonImg.png');
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 1px outset;
+    color: #fff;
+    
+}
+
+main{
+    background-image: url('./assets/image/grades.png');
+    background-size: auto;
+    background-position: right;
+   
+}
+.button_start {
+    font-family: "Inter";
+    font-weight: 300;
+    background-image: url('./assets/image/buttonImg.png');
+    font-size: 16px;
+    padding: 12px 26px;
+    border-radius: 8px;
+    border: 1px outset;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.section_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title {
+    font-family: "Geist";
+    font-size: 60px
+}
+
+.subtitle {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 24px;
+}
+
+.input_email {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin: 26px 10px 10px 0px;
+
+}
+
+.information_text {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.correct_icon{
+    height: 15px;
+}
+
+.icons p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: #fff;
+}
+
+.circle_image{
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
